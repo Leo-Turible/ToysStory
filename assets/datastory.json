@@ -7,7 +7,7 @@
         "photo": "../assets/images/woody.png",
         "info": "Les mains en l'air ! Le shérif Woody est la pour faire régner l'ordre dans la chambre d'Andy.",
         "couleur": "Rouge",
-        "son": "woody_sound.mp3"
+        "son": "../assets/sounds/Ignited_Freddy_Bedroom_jumpscare_audio.oga"
     },
     {
         "nom": "Buzz l'éclair",
@@ -17,7 +17,7 @@
         "photo": "../assets/images/buzz.png",
         "info": "Vers l'infini et au-delà !",
         "couleur": "Bleu",
-        "son": "buzz_sound.mp3"
+        "son": "../assets/sounds/Ignited_Bonnie_Bedroom_jumpscare_audio.oga"
     },
     {
         "nom": "Pil Poil",
@@ -27,7 +27,7 @@
         "photo": "../assets/images/pilpoil.png",
         "info": "Il cherche à éliminer le grand méchant Zurg. Buzz sait voler grâce à ses ailes déployables.",
         "couleur": "Vert",
-        "son": "pilpoil_sound.mp3"
+        "son": "../assets/sounds/Ignited_Chica_Bedroom_jumpscare_audio.oga"
     },
     {
         "nom": "Alien",
@@ -37,7 +37,7 @@
         "photo": "../assets/images/alien.png",
         "info": "Pas fufute mais très gentil",
         "couleur": "Jaune",
-        "son": "alien_sound.mp3"
+        "son": "../assets/sounds/Ignited_Foxy_Bedroom_jumpscare_audio.oga"
     },
     {
         "nom": "Rex",
@@ -47,7 +47,7 @@
         "photo": "../assets/images/rex.png",
         "info": "Tout dans les muscles !",
         "couleur": "Orange",
-        "son": "rex_sound.mp3"
+        "son": "../assets/sounds/rex_sound.mp3"
     },
     {
         "nom": "Jessie",
@@ -57,7 +57,7 @@
         "photo": "../assets/images/jessie.png",
         "info": "Téméraire et intrépide !",
         "couleur": "Rose",
-        "son": "jessie_sound.mp3"
+        "son": "../assets/sounds/jessie_sound.mp3"
     },
     {
         "nom": "Sergent",
@@ -67,7 +67,7 @@
         "photo": "../assets/images/sergent.png",
         "info": "Au service de tous !",
         "couleur": "Violet",
-        "son": "sergent_sound.mp3"
+        "son": "../assets/sounds/sergent_sound.mp3"
     },
     {
         "nom": "Bayonne",
@@ -77,7 +77,7 @@
         "photo": "../assets/images/bayonne.png",
         "info": "Tranquille et économe",
         "couleur": "Marron",
-        "son": "bayonne_sound.mp3"
+        "son": "../assets/sounds/bayonne_sound.mp3"
     },
     {
         "nom": "ZigZag",
@@ -87,7 +87,7 @@
         "photo": "../assets/images/zigzag.png",
         "info": "Toujours prêt à se plier en 4 pour Woody",
         "couleur": "Gris",
-        "son": "zigzag_sound.mp3"
+        "son": "../assets/sounds/zigzag_sound.mp3"
     },
     {
         "nom": "Monsieur Patate",
@@ -97,6 +97,6 @@
         "photo": "../assets/images/patate.png",
         "info": "Grincheux mais sympa",
         "couleur": "Blanc",
-        "son": "patate_sound.mp3"
+        "son": "../assets/sounds/patate_sound.mp3"
     }
 ]

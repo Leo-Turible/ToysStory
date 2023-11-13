@@ -30,6 +30,16 @@
                 toyCard.className = 'toy-card';
                 toyCard.style.backgroundColor = getRandomColor(); // Appliquer la couleur de fond aléatoire
 
+                // Ajouter une balise audio pour le son associé au personnage
+                const audioElement = document.createElement('audio');
+                audioElement.src = `${character.son}`;
+                toyCard.appendChild(audioElement);
+
+                toyCard.addEventListener('click', () => {
+                    // Lecture du son au clic sur la carte
+                    audioElement.play();
+                });
+
                 const imageContainer = document.createElement('div');
                 imageContainer.className = 'toy-card__image';
                 const characterImage = document.createElement('img');
