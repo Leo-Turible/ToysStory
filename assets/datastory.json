@@ -1,23 +1,102 @@
 [
-
-    { "nom": "Woody", "vie": "25", "discretion": "22", "action": "40", "photo": "images/woody.png", "info": "Les mains en l'air ! Le shérif Woody est la pour faire régner l ordre dans la chambre d'Andy." },
-
-    { "nom": "Buzz l'éclair", "vie": "35", "discretion": "15", "action": "70", "photo": "images/buzz.png", "info": "Vers l'infini et au-delà !" },
-
-    { "nom": "Pil Poil", "vie": "14", "discretion": "10", "action": "60", "photo": "images/pilpoil.png", "info": "Il cherche à éliminer le grand méchant Zurg. Buzz sait voler grâce à ses ailes déployables." },
-
-    { "nom": "Alien", "vie": "11", "discretion": "12", "action": "10", "photo": "images/alien.png", "info": "Pas fufute mais très gentil" },
-
-    { "nom": "Rex", "vie": "40", "discretion": "24", "action": "50", "photo": "images/rex.png", "info": "Tout dans les muscles !" },
-
-    { "nom": "Jessie", "vie": "37", "discretion": "45", "action": "65", "photo": "images/jessie.png", "info": "Téméraire et intrépide ! " },
-
-    { "nom": "Sergent", "vie": "12", "discretion": "60", "action": "75", "photo": "images/sergent.png", "info": "Au service de tous !" },
-
-    { "nom": "Bayonne", "vie": "25", "discretion": "30", "action": "20", "photo": "images/bayonne.png", "info": "Tranquille et économe" },
-
-    { "nom": "ZigZag", "vie": "35", "discretion": "30", "action": "40", "photo": "images/zigzag.png", "info": "Toujours prêt à se plier en 4 pour Woody" },
-
-    { "nom": "Monsieur Patate", "vie": "18", "discretion": "35", "action": "30", "photo": "images/patate.png", "info": "Grincheux mais sympa" }
-
+    {
+        "nom": "Woody",
+        "vie": "25",
+        "discretion": "22",
+        "action": "40",
+        "photo": "../assets/images/woody.png",
+        "info": "Les mains en l'air ! Le shérif Woody est la pour faire régner l'ordre dans la chambre d'Andy.",
+        "couleur": "Rouge",
+        "son": "woody_sound.mp3"
+    },
+    {
+        "nom": "Buzz l'éclair",
+        "vie": "35",
+        "discretion": "15",
+        "action": "70",
+        "photo": "../assets/images/buzz.png",
+        "info": "Vers l'infini et au-delà !",
+        "couleur": "Bleu",
+        "son": "buzz_sound.mp3"
+    },
+    {
+        "nom": "Pil Poil",
+        "vie": "14",
+        "discretion": "10",
+        "action": "60",
+        "photo": "../assets/images/pilpoil.png",
+        "info": "Il cherche à éliminer le grand méchant Zurg. Buzz sait voler grâce à ses ailes déployables.",
+        "couleur": "Vert",
+        "son": "pilpoil_sound.mp3"
+    },
+    {
+        "nom": "Alien",
+        "vie": "11",
+        "discretion": "12",
+        "action": "10",
+        "photo": "../assets/images/alien.png",
+        "info": "Pas fufute mais très gentil",
+        "couleur": "Jaune",
+        "son": "alien_sound.mp3"
+    },
+    {
+        "nom": "Rex",
+        "vie": "40",
+        "discretion": "24",
+        "action": "50",
+        "photo": "../assets/images/rex.png",
+        "info": "Tout dans les muscles !",
+        "couleur": "Orange",
+        "son": "rex_sound.mp3"
+    },
+    {
+        "nom": "Jessie",
+        "vie": "37",
+        "discretion": "45",
+        "action": "65",
+        "photo": "../assets/images/jessie.png",
+        "info": "Téméraire et intrépide !",
+        "couleur": "Rose",
+        "son": "jessie_sound.mp3"
+    },
+    {
+        "nom": "Sergent",
+        "vie": "12",
+        "discretion": "60",
+        "action": "75",
+        "photo": "../assets/images/sergent.png",
+        "info": "Au service de tous !",
+        "couleur": "Violet",
+        "son": "sergent_sound.mp3"
+    },
+    {
+        "nom": "Bayonne",
+        "vie": "25",
+        "discretion": "30",
+        "action": "20",
+        "photo": "../assets/images/bayonne.png",
+        "info": "Tranquille et économe",
+        "couleur": "Marron",
+        "son": "bayonne_sound.mp3"
+    },
+    {
+        "nom": "ZigZag",
+        "vie": "35",
+        "discretion": "30",
+        "action": "40",
+        "photo": "../assets/images/zigzag.png",
+        "info": "Toujours prêt à se plier en 4 pour Woody",
+        "couleur": "Gris",
+        "son": "zigzag_sound.mp3"
+    },
+    {
+        "nom": "Monsieur Patate",
+        "vie": "18",
+        "discretion": "35",
+        "action": "30",
+        "photo": "../assets/images/patate.png",
+        "info": "Grincheux mais sympa",
+        "couleur": "Blanc",
+        "son": "patate_sound.mp3"
+    }
 ]
