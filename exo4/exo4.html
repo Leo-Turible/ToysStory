@@ -28,17 +28,11 @@
             data.forEach(character => {
                 const toyCard = document.createElement('div');
                 toyCard.className = 'toy-card';
-                toyCard.style.backgroundColor = getRandomColor(); // Appliquer la couleur de fond aléatoire
+                toyCard.style.backgroundColor = getRandomColor();
 
-                // Ajouter une balise audio pour le son associé au personnage
                 const audioElement = document.createElement('audio');
                 audioElement.src = `${character.son}`;
                 toyCard.appendChild(audioElement);
-
-                toyCard.addEventListener('click', () => {
-                    // Lecture du son au clic sur la carte
-                    audioElement.play();
-                });
 
                 const imageContainer = document.createElement('div');
                 imageContainer.className = 'toy-card__image';
@@ -48,6 +42,20 @@
                 characterImage.alt = character.nom;
                 imageContainer.appendChild(characterImage);
                 toyCard.appendChild(imageContainer);
+
+                // Ajouter le verso de la carte
+                const backContainer = document.createElement('div');
+                backContainer.className = 'toy-card__back';
+                const backImage = document.createElement('img');
+                backImage.src = character.photo; // Changer l'image si nécessaire
+                backImage.alt = character.nom;
+                backContainer.appendChild(backImage);
+                toyCard.appendChild(backContainer);
+
+                toyCard.addEventListener('click', () => {
+                    audioElement.play();
+                    toyCard.classList.toggle('flipped');
+                });
 
                 const nameContainer = document.createElement('div');
                 nameContainer.className = 'toy-card__name';
