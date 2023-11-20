@@ -32,6 +32,17 @@ body {
     background-color: #fff;
     min-height: 100vh;
     width: 100%;
+    background: linear-gradient(45deg, #f3ec78, #af4261);
+}
+
+header {
+    width: 100%;
+    height: auto;
+
+    img {
+        width: 100px;
+        height: auto;
+    }
 }
 
 /*CARDS*/
@@ -45,7 +56,7 @@ body {
     min-height: 100vh;
     height: auto;
     position: relative;
-    background: linear-gradient(45deg, #f3ec78, #af4261);
+    // background: linear-gradient(45deg, #f3ec78, #af4261);
 }
 
 .toy-card {
@@ -165,25 +176,25 @@ body {
     transform: rotateY(180deg);
 }
 
-        /* Ajouter le style pour la carte retournée */
-        .flipped .toy-card {
-            transform: rotateY(180deg);
-        }
+/* Ajouter le style pour la carte retournée */
+.flipped .toy-card {
+    transform: rotateY(180deg);
+}
 
-        /* Ajouter le style pour le verso de la carte */
-        .toy-card__back {
-            transform: rotateY(180deg);
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            backface-visibility: hidden;
-        }
+/* Ajouter le style pour le verso de la carte */
+.toy-card__back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backface-visibility: hidden;
+}
 
-        .toy-card__back img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 25px;
-        }
+.toy-card__back img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
